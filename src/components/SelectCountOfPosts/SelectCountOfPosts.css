@@ -1,0 +1,18 @@
+.drop-down-list {
+  border: 1.5px solid var(--primary);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 2px 5px;
+  color: #000;
+  background-color: #fff;
+  outline: none;
+}
+
+@media (max-width: 540px) {
+  .drop-down-list {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 0;
+  }
+}
